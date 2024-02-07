@@ -1,0 +1,1 @@
+task1: The program displays information about the client's bank cards and compares them. The "equals" and "toString" methods have been overridden in the "Card" and "Clients" classes. The "Runner" class prints information to the console using "for" loops.
