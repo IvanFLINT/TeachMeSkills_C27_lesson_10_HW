@@ -31,7 +31,7 @@ public class Runner {
         for (int i = 0; i < cards.length; i++) {
             for (int j = i + 1; j < cards.length; j++) {
                 if (cards[i].equals(cards[j])) {
-                    System.out.println("Карты совпадают: \n " + arr[i] + "\n" + arr[j]);
+                    System.out.println("Карты совпадают: \n " + cards[i] + "\n" + cards[j]);
                     System.out.println();
                 }
             }
