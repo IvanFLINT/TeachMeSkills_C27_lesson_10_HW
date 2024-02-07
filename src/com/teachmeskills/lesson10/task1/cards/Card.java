@@ -2,6 +2,9 @@ package com.teachmeskills.lesson10.task1.cards;
 
 import java.util.Objects;
 
+/**
+ * The "Card" class contains fields for describing bank cards. And overridden methods "toString" and "equals".
+ */
 public class Card {
     private String nameCard;
     private int cvv;

@@ -2,6 +2,9 @@ package com.teachmeskills.lesson10.task1.runner;
 
 import com.teachmeskills.lesson10.task1.cards.Card;
 import com.teachmeskills.lesson10.task1.clients.Clients;
+/**
+ * This program execution class
+ */
 
 public class Runner {
     public static void main(String[] args) {

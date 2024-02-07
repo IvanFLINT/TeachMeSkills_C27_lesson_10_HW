@@ -1,5 +1,8 @@
 package com.teachmeskills.lesson10.task1.clients;
 
+/**
+ * the "Clients" class contains client description fields. And an overridden "toString" method.
+ */
 public class Clients {
     private String name;
     private String numberPassport;
