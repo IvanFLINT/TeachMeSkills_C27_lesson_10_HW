@@ -1,12 +1,12 @@
-package task1;
+package com.teachmeskills.lesson10.task1.cards;
 
 import java.util.Objects;
 
 public class Card {
-    String nameCard;
-    int cvv;
-    String numberCard;
-    int summa;
+    private String nameCard;
+    private int cvv;
+    private String numberCard;
+    private int summa;
 
     public Card(String nameCard, String numberCard,int cvv , int summa) {
         this.nameCard = nameCard;
@@ -57,9 +57,8 @@ public class Card {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Card card)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
+        Card card = (Card) o;
         return cvv == card.cvv && Objects.equals(nameCard, card.nameCard) && Objects.equals(numberCard, card.numberCard);
     }
-
-
 }

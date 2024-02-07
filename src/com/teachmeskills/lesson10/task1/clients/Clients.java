@@ -1,9 +1,9 @@
-package task1;
+package com.teachmeskills.lesson10.task1.clients;
 
 public class Clients {
-    String name;
-    String numberPassport;
-    String address;
+    private String name;
+    private String numberPassport;
+    private String address;
 
     public Clients(String name, String numberPassport, String address) {
         this.name = name;
