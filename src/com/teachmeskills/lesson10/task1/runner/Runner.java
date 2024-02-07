@@ -18,6 +18,7 @@ public class Runner {
         Card card5 = new Card("VisaCard", "1237 3434 3421 3789", 978, 324454645);
         Card card6 = new Card("MasterCard", "3242 2345 2342 1321", 654, 2452353);
 
+        System.out.println(clients1.toString());
         System.out.println();
         String[] arr = new String[]{card1.toString(), card2.toString(), card3.toString(), card4.toString(),
                 card5.toString(), card6.toString()};
