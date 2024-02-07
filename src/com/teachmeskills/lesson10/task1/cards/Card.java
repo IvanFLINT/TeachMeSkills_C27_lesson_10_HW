@@ -6,53 +6,23 @@ import java.util.Objects;
  * The "Card" class contains fields for describing bank cards. And overridden methods "toString" and "equals".
  */
 public class Card {
-    private String nameCard;
-    private int cvv;
-    private String numberCard;
-    private int summa;
+    final String nameCard;
+    final int cvv;
+    final String numberCard;
+    final int summa;
 
-    public Card(String nameCard, String numberCard,int cvv , int summa) {
+    public Card(String nameCard, String numberCard, int cvv, int summa) {
         this.nameCard = nameCard;
         this.cvv = cvv;
         this.numberCard = numberCard;
         this.summa = summa;
     }
 
-    public String getNameCard() {
-        return nameCard;
-    }
 
-    public void setNameCard(String nameCard) {
-        this.nameCard = nameCard;
-    }
-
-    public int getCvv() {
-        return cvv;
-    }
-
-    public void setCvv(int cvv) {
-        this.cvv = cvv;
-    }
-
-    public String getNumberCard() {
-        return numberCard;
-    }
-
-    public void setNumberCard(String numberCard) {
-        this.numberCard = numberCard;
-    }
-
-    public int getSumma() {
-        return summa;
-    }
-
-    public void setSumma(int summa) {
-        this.summa = summa;
-    }
     @Override
     public String toString() {
-        return "Карта: " + nameCard  +
-                ", №: " + numberCard  +
+        return "Карта: " + nameCard +
+                ", №: " + numberCard +
                 ", CVV = " + cvv +
                 ", Сумма на счете = " + summa;
     }
